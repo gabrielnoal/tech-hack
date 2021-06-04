@@ -1,0 +1,13 @@
+apt-get install –y gcc gd gd-devel make perl-GD wget httpd;
+
+wget https://excellmedia.dl.sourceforge.net/project/sarg/sarg/sarg-2.4.0/sarg-2.4.0.tar.gz;
+
+tar -xvzf sarg-2.4.0.tar.gz;
+
+cd sarg-2.4.0;
+
+./configure;
+
+make;
+
+make install;
